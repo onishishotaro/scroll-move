@@ -1,0 +1,78 @@
+.flx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flx-btw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flx-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flx-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.al-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a {
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+a:hover {
+  opacity: 0, 8;
+}
+
+.btn {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.parallax1 {
+  left: 60px;
+  position: fixed;
+  top: 200px;
+  width: 200px;
+  z-index: -1;
+}
+
+.parallax2 {
+  position: fixed;
+  left: 250px;
+  top: 200px;
+  width: 200px;
+  z-index: -1;
+}
+
+.parallax3 {
+  position: fixed;
+  left: 460px;
+  top: 200px;
+  width: 200px;
+  z-index: -1;
+}
+
+.inner {
+  margin-top: 100px;
+  height: 320vh;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 200px;
+}
